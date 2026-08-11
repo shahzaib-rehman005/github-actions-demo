@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Say hello
-        run: echo "Hello! This job runs on every push and pull request."
+        run: echoo "Hello! This job runs on every push and pull request."
 
   system-info:
     runs-on: ubuntu-latest
